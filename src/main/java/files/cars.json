@@ -1,0 +1,20 @@
+[
+  {
+    "id": "e669a93b-600e-423c-acee-3d549fecc177",
+    "manufacturer": "car1",
+    "model": "model1",
+    "speed": 200.0
+  },
+  {
+    "id": "d1f54c06-be1c-4766-ad7a-220e33a56353",
+    "manufacturer": "car2",
+    "model": "model2",
+    "speed": 300.0
+  },
+  {
+    "id": "bcef414a-c8db-43b3-a0b7-c00d76b4a22b",
+    "manufacturer": "car3",
+    "model": "model3",
+    "speed": 250.0
+  }
+]
