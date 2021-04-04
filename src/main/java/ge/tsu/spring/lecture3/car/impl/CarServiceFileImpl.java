@@ -6,13 +6,11 @@ import com.google.gson.reflect.TypeToken;
 import ge.tsu.spring.lecture3.car.*;
 import org.springframework.stereotype.Service;
 
-import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Reader;
 import java.io.Writer;
 import java.lang.reflect.Type;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.*;
 import java.util.stream.Collectors;
@@ -20,7 +18,7 @@ import java.util.stream.Collectors;
 @Service("carFileImpl")
 public class CarServiceFileImpl implements CarService {
 
-    private static final String JSON_DATA = "/home/romiko/Desktop/Java/folderr/src/main/java/files/cars.json";
+    private static final String JSON_DATA = "src/main/java/files/cars.json";
 
     @Override
     public void add(AddCar addCar) throws RecordAlreadyExistsException, IOException {
